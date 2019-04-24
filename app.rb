@@ -8,7 +8,7 @@ class App < Sinatra::Base
 
   post '/team' do
 
-    #@team = ['Louis Armstrong', 'Ella Fitzgerald', 'Mile Davis', 'Dave Brubeck', 'John Coltrane', 'Sonny Rollins']
+    @team = ['Louis Armstrong', 'Ella Fitzgerald', 'Mile Davis', 'Dave Brubeck', 'John Coltrane', 'Sonny Rollins']
 
     erb :team
   end
