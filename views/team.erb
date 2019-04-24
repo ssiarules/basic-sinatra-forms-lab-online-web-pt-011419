@@ -5,12 +5,15 @@
   <title>Basketball Team</title>
  </head>
  <body>
-   <h1> Team Name: Brooklyn Nets </h1>
+   <h1> Team Name: Bballers </h1>
     <% @team.each do |team|
       <h2><%= team %></h2>
       <% end %>
 
-
+      <form method="POST" action="/team">
+            <input type="text" name="string">
+            <input type="submit">
+          </form>
 
  </body>
 </html>
