@@ -5,15 +5,9 @@
   <title>Basketball Team</title>
  </head>
  <body>
-   <h1> Team Name: Bballers </h1>
-    <% @team.each do |team|
-      <h2><%= team %></h2>
-      <% end %>
+   <h1> Team Name: <%= @name %></h1>
 
-      <form method="POST" action="/team">
-            <input type="text" name="string">
-          <button type="submit">Submit</button>
-          </form>
+
 
  </body>
 </html>
